@@ -1,4 +1,5 @@
 " ============================================================================
+" From http://fisadev.github.io/fisa-vim-config/
 " Vundle initialization
 " Avoid modify this section, unless you are very sure of what you are doing
 
