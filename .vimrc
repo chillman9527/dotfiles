@@ -249,6 +249,9 @@ if !isdirectory(&undodir)
     call mkdir(&undodir, "p")
 endif
 
+" mappings to run python3
+autocmd FileType python nnoremap <buffer> <F8> :exec '!python3' shellescape(@%, 1)<cr>
+
 " ============================================================================
 " Plugins settings and mappings
 " Edit them as you wish.
