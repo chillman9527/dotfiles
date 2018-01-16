@@ -1,5 +1,5 @@
 # dotfiles
-My configurations for bash shell env, including bash-it, vimrc, tmux_conf.
+My configurations for shell env, including oh-my-zsh, vimrc, tmux_conf.
 
 How to install:
 ```
