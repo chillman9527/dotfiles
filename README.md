@@ -1,4 +1,8 @@
 # dotfiles
-my configurations, especially for bash env
+My configurations for bash shell env, including bash-it, vimrc, tmux_conf.
 
-`./install.sh`
+How to install:
+```
+cd dotfile/
+./install.sh
+```

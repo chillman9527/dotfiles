@@ -11,6 +11,6 @@ if [ -f ~/.bash_profile ]; then
     sed -i '' 's/bobby/powerline/g' ~/.bash_profile
     . ~/.bash_profile
 elif [ -f ~/.bashrc ]; then
-    sed -i 's/bobby/zork/g' ~/.bashrc
+    sed -i 's/bobby/powerline/g' ~/.bashrc
     . ~/.bashrc
 fi
