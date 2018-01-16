@@ -11,4 +11,3 @@ if [[ "$(uname -s)" == "Darwin" ]]; then
 elif [[ "$(uname -s)" == "Linux" ]]; then
     sed -i 's/robbyrussell/ys/g' ~/.zshrc
 fi
-source ~/.zshrc
