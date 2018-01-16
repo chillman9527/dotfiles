@@ -4,11 +4,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # add vimrc and tmux config
 cp .vimrc .tmux.conf ~
 
-# edit the bash config depending on macos or ubuntu
-if [ "$(uname -s)" == "Darwin" ]; then
+# edit the bash config depending on macos or linux
+if [[ "$(uname -s)" == "Darwin" ]]; then
     cp macos.zsh ~/.oh-my-zsh/custom/
     sed -i '' 's/robbyrussell/ys/g' ~/.zshrc
-elif [ "$(uname -s)" == "Linux" ]; then
+elif [[ "$(uname -s)" == "Linux" ]] then
     sed -i 's/robbyrussell/ys/g' ~/.zshrc
 fi
 source ~/.zshrc
