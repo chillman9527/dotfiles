@@ -6,3 +6,4 @@ How to install:
 cd dotfile/
 ./install.sh
 ```
+
