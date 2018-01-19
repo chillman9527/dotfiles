@@ -7,7 +7,7 @@ cp .vimrc .tmux.conf ~
 # edit the bash config depending on macos or linux
 if [[ "$(uname -s)" == "Darwin" ]]; then
     cp macos.zsh ~/.oh-my-zsh/custom/
-    sed -i '' 's/robbyrussell/ys/g' ~/.zshrc
+    sed -i '' 's/robbyrussell/pmcgee/g' ~/.zshrc
 elif [[ "$(uname -s)" == "Linux" ]]; then
-    sed -i 's/robbyrussell/ys/g' ~/.zshrc
+    sed -i 's/robbyrussell/pmcgee/g' ~/.zshrc
 fi
