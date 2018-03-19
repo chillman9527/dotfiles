@@ -9,5 +9,6 @@ if [[ "$(uname -s)" == "Darwin" ]]; then
     cp macos.zsh ~/.oh-my-zsh/custom/
     sed -i '' 's/robbyrussell/pmcgee/g' ~/.zshrc
 elif [[ "$(uname -s)" == "Linux" ]]; then
+    cp linux.zsh ~/.oh-my-zsh/custom/
     sed -i 's/robbyrussell/pmcgee/g' ~/.zshrc
 fi
