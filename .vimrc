@@ -160,6 +160,9 @@ syntax on
 " show line numbers
 set nu
 
+" file encoding setting
+set fileencodings=utf8,big5,gbk,latin1
+
 " tab navigation mappings
 map tn :tabn<CR>
 map tp :tabp<CR>
