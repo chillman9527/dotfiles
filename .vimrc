@@ -239,10 +239,11 @@ let g:tabman_focus  = 'tf'
 
 let g:airline_powerline_fonts = 0
 let g:airline_theme = 'bubblegum'
-l
+let g:airline#extensions#whitespace#enabled = 0
+
 " Ultismips ------------------------------
 
-let g:UltiSnipsExpandTrigger="<tab>"et g:airline#extensions#whitespace#enabled = 0
+let g:UltiSnipsExpandTrigger="<tab>"
 
 " Signify ------------------------------
 
